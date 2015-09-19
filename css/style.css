@@ -1,0 +1,175 @@
+body{
+    margin: 1.2em 15em 0 15em;
+}
+
+h1{
+    color: white;
+    font-family: Oswald, sans-serif;
+    margin-bottom: 0;
+    margin-left: 2em;
+    padding-bottom: 0;
+}
+
+p{
+    font-family: Old Standard TT, serif;
+    margin-left: 4.2em;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/*header*/
+h1 + p{
+    color: white;
+    font-size: 1.2em;
+    left: -0.9em;
+    position: relative;
+    width: 55%;
+}
+
+.webtitle{
+    float: left;
+    width: 70%;
+}
+
+body > header{
+    background: #ffcc00;
+    border-radius: 2em 2em 0 0;
+    height: 150%;
+}
+
+.logo{
+    height: 4.5em;
+    left: 3em;
+    position: relative;
+    top: 1.9em;
+    width: 15em;
+}
+
+/*navbar */
+nav > ul > li{
+    display: inline;
+    font-family: Oswald, sans-serif;
+    padding-left: 3.5em;
+}
+
+nav > ul > li >a{
+    text-decoration: none;
+}
+
+nav > ul > li >a:hover{
+    font-size: 1.6em;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+nav{
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+    clear: both;
+}
+
+ul > li > a{
+    color: white;
+    font-size: 1.3em;
+}
+
+form{
+    float: right;
+    left:-1em;
+    position: relative;
+    top: 0.5em;
+}
+
+label{
+    font-family: Oswald, sans-serif;
+}
+
+form + p > a{
+    color: black;
+    font-family: Old Standard TT, serif;
+    position: relative;
+/*    text-decoration: none;*/
+    top: 0.6em;
+}
+
+input{
+    border-radius: 2em 2em;
+}
+
+button{
+    border-radius: 2em 2em;
+    box-shadow: 2px 1px #8D90B2;
+    font-family: Oswald, sans-serif;
+    position: relative;
+    top: 0.2em;
+}
+
+/*navbar eind*/
+
+/*header eind*/
+
+/*main css*/
+body > main{
+    margin: 1.2em 1em;
+}
+
+article > header > h1{
+    background: #ffcc00;
+    box-sizing: border-box;
+    font-size: 1.6em;
+    left: -2em;
+    padding: 1em 2em;
+    position: relative;
+    text-shadow: 3px 2px rgba(0,0,0,0.3);
+    width: 100%;
+}
+
+article h2, h3{
+    font-family: Oswald, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 0;
+    padding-left: 2em;
+}
+
+article p{
+    font-size: 1.3em;
+    left: -1.7em;
+    position: relative;
+}
+
+article h4{
+    font-family: Oswald, sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 0;
+    padding-left: 3em;
+}
+
+section{
+    margin: 1.5em 0 1.5em 0;
+}
+
+h4 + img{
+    border-radius: 0 6em 6em 0;
+    box-shadow: 4px 3px rgba(0,0,0,0.4);
+    margin:1em 0 1em 6em;
+}
+
+
+/*footer styling*/
+
+footer > section{
+    background: #ffcc00;
+}
+
+main > h1{
+    background: #ffcc00;
+    box-sizing: border-box;
+    font-size: 1.6em;
+    left: -2em;
+    padding: 1em 2em;
+    position: relative;
+    text-shadow: 3px 2px rgba(0,0,0,0.3);
+    width: 100%;
+}
+
+
